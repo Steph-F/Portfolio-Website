@@ -1,0 +1,144 @@
+/*****BASE STYLES*****/
+body {
+    color: #2b2b2b;
+    font-family: 'Arvo', serif;  
+}
+
+/*****GRID*****/
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: max-content;
+}
+.half-width {
+    float: left;
+    width: auto;
+}
+
+/*****Header*****/
+header {
+    background: url('../img/background2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:1040px;
+    padding-top: 30px;
+}
+header h1 {
+    color: #a190bd;
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    padding-left: 125px;
+}
+nav {
+    float: right;
+    padding-right: 25px;
+}
+nav ul li {
+    display: inline-block; /*****makes navigations display horizontally instead of vertically like a list*****/
+}
+nav ul li a {
+    color: #ebebeb;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+/*****What I Do*****/
+#what-i-do {
+    background-color: #ebebeb;
+}
+#what-i-do .full-width {
+    height: 1050px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+#what-i-do h2 {
+    font-size:70px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#what-i-do .half-width {
+    padding-left: 65px;
+}
+#what-i-do ul li {
+    line-height: 50px;
+    font-size: 25px;
+    padding: 15px;
+
+}
+
+/*****Expect*****/
+#expect {
+    background-color: #a190bd;
+}
+#expect .full-width {
+    height: 1050px;
+    text-align: center;
+}
+#expect h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    color: #ebebeb;
+}
+#expect h3 {
+    font-size: 24px;
+    line-height: 75px;
+    color: #ebebeb;
+}
+#expect p {
+    font-size: 18px;
+    line-height: 15px;
+    color: #ebebeb
+}
+/*****Contact*****/
+#contact {
+    background-color: #ebebeb;
+}
+#contact .full-width {
+    padding: 110px 0;
+}
+#contact img#contact-img {
+    border: 12px solid #ffffff;
+    margin-left: 25px;
+}
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 115px;
+}
+#contact #envelope {
+    padding: 0 10px 0 115px;
+}
+#contact h2 {
+    font-size: 36px;
+    line-height: 44px;
+}
+#contact #email-header{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    margin: -30px 0 5px 0;
+}
+#contact #socialmedia-header {
+    font-weight: bold;
+    font-size: 29px;
+    line-height: 44px;
+    margin: 40px 0 0 0;
+}
+#contact a {
+    color: #c49075;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
+}
+
